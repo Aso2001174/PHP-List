@@ -1,0 +1,55 @@
+body{
+    background-image: url("../img/コート.png");
+    background-position: center;
+    background-size: cover;
+}
+.icon{
+    text-align: center;
+}
+.container{
+    max-width:900px;
+    max-height: 2000px;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+    background-color: #ffffff;
+    border: solid 1px #333333;
+    background-image: none;
+}
+.content{
+    text-align: center;
+}
+.box{
+    box-sizing: border-box;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #333333;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 30px;
+}
+.effect input:focus{
+    border: 1px solid #005fff;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(0, 95, 255, 0.5);
+}
+.btn{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #d90429;
+    background: #d90429;
+}
+.btn:hover{
+    background: #fff;
+    color: #d90429
+}
